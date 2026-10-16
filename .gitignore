@@ -1,0 +1,4 @@
+new/output/*
+!new/output/.gitkeep
+edit/input/*
+edit/output/*
