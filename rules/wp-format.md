@@ -23,7 +23,7 @@
 1-2 на сторінку: `<div class="XX-cta-banner"><p class="XX-cta-text">...</p><a href="/go/" class="XX-cta-button">Claim Your Bonus</a></div>`. Справжній `<a href="/go/">`, стиль кнопки за правилами кольору вище. Місце міняти між брендами.
 
 ## Quick Facts
-Завжди справжня `<table><thead><tr><th>` з іконкою (emoji/бейдж) у кожному рядку, у всіх шаблонах. Рядок Official Website - `<a href="/go/">`, інлайн-захист.
+Завжди справжня `<table><thead><tr><th>`. Іконки в таблицях НЕ ставити (однакові emoji в усіх таблицях заборонені, рішення користувача 2026-10-26); різнити дизайн таблиць структурою колонок. Рядок Official Website - `<a href="/go/">domain.tld</a>` (домен зі `data/Bonuses.ods` як анкор), інлайн-захист.
 
 ## Перед здачею (скрипт)
 - Баланс `<!-- wp:X -->` / `<!-- /wp:X -->` (heading, paragraph, html, list, list-item) і HTML-тегів (div, style, table, thead, tbody, tr, td, th, details, ol, ul, li). Непарний wp:html коментар ламає всю сторінку в сирий код. Найчастіше - у довгих fact-cards/spec-list блоках.

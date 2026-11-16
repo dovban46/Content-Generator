@@ -1,0 +1,18 @@
+<!-- Вставляти ЦЕЙ блок цілком у WP як Custom HTML (в редакторі: Code editor, вставити; коментарі wp:html лишити). Кольори адаптивні (currentColor/inherit), підходять під будь-яку тему, світлу чи темну. Перше питання open. -->
+<!-- wp:html -->
+<style>
+.faq-wp summary::-webkit-details-marker{display:none}
+.faq-wp summary::marker{content:""}
+.faq-wp details[open] summary>span:last-child{display:inline-block;transform:rotate(180deg)}
+</style>
+<div class="faq-wp" itemscope itemtype="https://schema.org/FAQPage" style="margin:24px 0">
+<details open itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="border:1px solid rgba(128,128,128,.4);border:1px solid color-mix(in srgb,currentColor 25%,transparent);border-radius:8px;margin:0 0 10px;background:rgba(128,128,128,.08);background:color-mix(in srgb,currentColor 6%,transparent);overflow:hidden;color:inherit">
+<summary style="cursor:pointer;list-style:none;padding:14px 16px;font-weight:600;background:rgba(128,128,128,.15);background:color-mix(in srgb,currentColor 10%,transparent);color:inherit !important;-webkit-text-fill-color:currentColor !important;background-image:none !important"><span itemprop="name">Питання 1?</span><span style="float:right;margin-left:12px;color:inherit !important;-webkit-text-fill-color:currentColor !important">&#9662;</span></summary>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:4px 16px 12px;background:transparent;color:inherit"><div itemprop="text"><p style="margin:8px 0;color:inherit !important;-webkit-text-fill-color:currentColor !important">Відповідь, 50+ слів.</p></div></div>
+</details>
+<details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" style="border:1px solid rgba(128,128,128,.4);border:1px solid color-mix(in srgb,currentColor 25%,transparent);border-radius:8px;margin:0 0 10px;background:rgba(128,128,128,.08);background:color-mix(in srgb,currentColor 6%,transparent);overflow:hidden;color:inherit">
+<summary style="cursor:pointer;list-style:none;padding:14px 16px;font-weight:600;background:rgba(128,128,128,.15);background:color-mix(in srgb,currentColor 10%,transparent);color:inherit !important;-webkit-text-fill-color:currentColor !important;background-image:none !important"><span itemprop="name">Питання 2?</span><span style="float:right;margin-left:12px;color:inherit !important;-webkit-text-fill-color:currentColor !important">&#9662;</span></summary>
+<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" style="padding:4px 16px 12px;background:transparent;color:inherit"><div itemprop="text"><p style="margin:8px 0;color:inherit !important;-webkit-text-fill-color:currentColor !important">Відповідь, 50+ слів.</p></div></div>
+</details>
+</div>
+<!-- /wp:html -->

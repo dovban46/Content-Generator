@@ -5,7 +5,7 @@
 1. Читати: `rules/requirements.md`, `rules/wp-format.md`, `structures/<тип>.md` + `structures/page-specs.md`.
 2. Дані: `data/facts/facts-<slug>.md` (+ `data/Bonuses.ods` для бонусів), `data/keys/key-<slug>-<GEO>.md`. Немає факт-листа або ключів - зупинитись і повідомити.
 3. Структура: мінімум 3 конкуренти з ТОПу, унікалізувати H1-H4.
-4. Писати HTML у `new/output/<Brand>/` (формат - `rules/wp-format.md`, зразок - `new/example.txt`). Чистий контентний HTML без CSS - лише якщо користувач прямо просить.
+4. Результат - 2 файли на сторінку в `new/output/`, ЗАВЖДИ формат .txt (вміст HTML, розширення .txt): `<brand>-<тип>.txt` (чистий HTML тексту БЕЗ wp-коментарів і без style, вставляється як звичайний текст, щоб можна було додавати фото; закінчується заголовком H2 FAQ) і `<brand>-<тип>-faq.txt` (тільки FAQ-блок з `structures/faq-snippet.html`, обгорнутий в wp:html, вставляється як Custom HTML). Офсайт у першій таблиці: href=`/go/`, анкор = домен зі `data/Bonuses.ods` (стовпець "Оф сайт").
 5. QA за п.6 `rules/requirements.md` + перевірки скриптом з `rules/wp-format.md`.
 6. Звіт: слова, непідтверджені факти, що обтічно.
 
